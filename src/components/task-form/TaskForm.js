@@ -3,8 +3,9 @@ import "../task-form/TaskForm.css";
 
 function TaskForm({ closeFormProps, addTaskProps }) {
 	const [taskTitle, setTaskTitle] = useState("");
+	const today = new Date().toISOString().split("T")[0];
 	const [taskDescription, setTaskDescription] = useState("");
-	const [startDate, setStartDate] = useState(Date.now());
+	const [startDate, setStartDate] = useState(today);
 	const [dueDate, setDueDate] = useState("");
 	const [priority, setPriority] = useState("High");
 	const [allocate, setAllocate] = useState("I will do it");
@@ -70,6 +71,7 @@ function TaskForm({ closeFormProps, addTaskProps }) {
 						value={startDate}
 						onChange={(e) => setStartDate(e.target.value)}
 						id="task-start-date"
+						min={today}
 						required
 					/>
 				</div>
