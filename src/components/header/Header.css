@@ -1,0 +1,25 @@
+header {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 2;
+	background-color: hsl(0, 0%, 7%);
+	height: 70px;
+	image-rendering: src;
+	color: rgb(53, 153, 167);
+}
+
+img {
+	height: 50px;
+	margin-bottom: 0;
+}
+h3{
+
+	text-align: center;
+}
+h4 {
+	margin-top: 0%;
+}
+
+.header {
+	margin-left: 20px;
+}
