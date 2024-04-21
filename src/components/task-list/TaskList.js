@@ -2,7 +2,7 @@ import Task from "../task/Task";
 
 function TaskList({ arrayOfTasks, handleDeleteTask }) {
 	if (arrayOfTasks.length === 0) {
-		return <h3>You have no tasks yet</h3>;
+		return <h3 className="no-tasks">You have no tasks yet</h3>;
 	}
 
 	const sortedTasks = arrayOfTasks.sort((a, b) => {

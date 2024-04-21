@@ -1,62 +1,58 @@
-
 .form-container {
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-  border: 2px solid rgb(73, 213, 234);
-  color: rgb(73, 213, 234);
-  border-radius: 5px;
-  padding: 5px;
-  height: 70vh;
-   
-    
-  }
-#submit{
-  background-color: rgb(73, 213, 234);
-  color: black;
-  font-weight: bold;
-  height: 35px;
-  border-radius: 7px;
-  margin-top: 10px;
-
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	border: 2px solid rgb(73, 213, 234);
+	color: rgb(73, 213, 234);
+	border-radius: 5px;
+	padding: 5px;
+	height: 70vh;
+}
+#submit {
+	background-color: rgb(73, 213, 234);
+	color: black;
+	font-weight: bold;
+	height: 35px;
+	border-radius: 7px;
+	margin-top: 10px;
 }
 label {
-  font-weight: bold;
-  font-size: 15px;
+	font-weight: bold;
+	font-size: 15px;
 }
 
 input[type="text"],
 textarea {
-  width: 100%;
-  padding: 9px;
-  margin: 5px 0 15px 0;
-  border: 1px solid #444;
-  border-radius: 5px;
-  background-color: #444;
-  box-sizing: border-box; 
-  color: white;
+	width: 100%;
+	padding: 9px;
+	margin: 5px 0 15px 0;
+	border: 1px solid #969696;
+	border-radius: 5px;
+	background-color: #969696;
+	box-sizing: border-box;
+	color: black;
+    font-weight: bolder;
 }
 
-input[type="date"]{
-  width: 75%;
-  padding: 5px;
-  margin: 5px 0 15px 0;
-  border: 1px solid #444;
-  border-radius: 5px;
-  background-color: #444;
-  box-sizing: border-box;
-  color: white; }
+input[type="date"] {
+	width: 75%;
+	padding: 5px;
+	margin: 5px 0 15px 0;
+	border: 1px solid #969696;
+	border-radius: 5px;
+	background-color: #969696;
+	box-sizing: border-box;
+	color: black;
+}
 
 #priority,
 #task-status,
 #task-allocate {
-  background-color: #444;
-  width: 45%;
-  color: white;
+	background-color: #969696;
+	width: 45%;
+	color: bl;
 }
 
-
-
 textarea {
-  resize: vertical; 
+	resize: vertical;
 }
