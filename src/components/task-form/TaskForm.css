@@ -1,20 +1,21 @@
 .form-container {
 	display: flex;
 	flex-direction: column;
-	background-color: black;
-	border: 2px solid rgb(73, 213, 234);
-	color: rgb(73, 213, 234);
+	background-color: hsl(0, 11%, 89%);
+	border: 2px solid rgb(70, 4, 74);
+	color: rgb(70, 4, 74);
 	border-radius: 5px;
 	padding: 5px;
 	height: 70vh;
 }
 #submit {
-	background-color: rgb(73, 213, 234);
-	color: black;
+	background-color: rgb(126, 7, 124);
+	color: #E6E0E0;
 	font-weight: bold;
 	height: 35px;
 	border-radius: 7px;
 	margin-top: 10px;
+	border: none;
 }
 label {
 	font-weight: bold;
@@ -26,9 +27,9 @@ textarea {
 	width: 100%;
 	padding: 9px;
 	margin: 5px 0 15px 0;
-	border: 1px solid #969696;
+	border: 2px solid #703363;
 	border-radius: 5px;
-	background-color: #969696;
+	background-color: #cc97be;
 	box-sizing: border-box;
 	color: black;
     font-weight: bolder;
@@ -38,19 +39,22 @@ input[type="date"] {
 	width: 75%;
 	padding: 5px;
 	margin: 5px 0 15px 0;
-	border: 1px solid #969696;
+	border: 2px solid #703363;
 	border-radius: 5px;
-	background-color: #969696;
+	background-color: #cc97be;
 	box-sizing: border-box;
 	color: black;
+	
 }
 
 #priority,
 #task-status,
 #task-allocate {
-	background-color: #969696;
+	background-color: #cc97be;
+	border: 2px solid #703363;
 	width: 45%;
-	color: bl;
+	color: black;
+	
 }
 
 textarea {

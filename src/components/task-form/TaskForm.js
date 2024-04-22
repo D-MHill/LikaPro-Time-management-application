@@ -55,7 +55,7 @@ function TaskForm({ closeFormProps, addTaskProps }) {
 					</label>
 					<br />
 					<textarea
-						rows="9"
+						rows="8"
 						value={taskDescription}
 						onChange={(e) => setTaskDescription(e.target.value)}
 						id="task-description"
