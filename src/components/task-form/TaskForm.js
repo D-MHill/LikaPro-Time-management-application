@@ -6,7 +6,7 @@ function TaskForm({ closeFormProps, addTaskProps }) {
 	const today = new Date().toISOString().split("T")[0];
 	const [taskDescription, setTaskDescription] = useState("");
 	const [startDate, setStartDate] = useState(today);
-	const [dueDate, setDueDate] = useState("");
+	const [dueDate, setDueDate] = useState(today);
 	const [priority, setPriority] = useState("High");
 	const [allocate, setAllocate] = useState("I will do it");
 
@@ -84,6 +84,7 @@ function TaskForm({ closeFormProps, addTaskProps }) {
 						value={dueDate}
 						onChange={(e) => setDueDate(e.target.value)}
 						id="task-due-date"
+						min={today}
 						required
 					/>
 				</div>
