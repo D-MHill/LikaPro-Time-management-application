@@ -45,7 +45,11 @@ function App() {
 
 	useEffect(() => {
 		handleTimeDate();
-	}, []);
+
+		const intervalId = setInterval(() => {
+			handleTimeDate();
+		}, 1000);
+	});
 
 	return (
 		<div className="frame">
