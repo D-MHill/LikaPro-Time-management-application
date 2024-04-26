@@ -39,14 +39,13 @@ function App() {
 		const minutes = date.getMinutes().toString().padStart(2, "0");
 		const time = `${hours}:${minutes}`;
 		const dateTime = `${currentDayOfWeek}, ${date.toLocaleDateString()} - ${time}`;
-		
+
 		setTimeDate(dateTime);
 	};
 
-
 	useEffect(() => {
 		handleTimeDate();
-	}, []); 
+	}, []);
 
 	return (
 		<div className="frame">
@@ -68,9 +67,7 @@ function App() {
 					/>
 				)}
 			</div>
-			
 		</div>
-		
 	);
 }
 

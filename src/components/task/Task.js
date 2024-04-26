@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import "../task/Task.css";
-import TaskList from "../task-list/TaskList";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faTrashAlt,
 	faPlayCircle,
 	faCheckCircle,
-	faPenToSquare,
+	// faPenToSquare,
 } from "@fortawesome/free-solid-svg-icons"; //icones do FontAwesome
 
 function Task({ task, handleDeleteTask }) {
