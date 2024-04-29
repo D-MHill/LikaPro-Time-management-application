@@ -48,8 +48,10 @@ function App() {
 
 		const intervalId = setInterval(() => {
 			handleTimeDate();
-		}, 1000);
-	});
+		}, 60000);
+
+		return () => clearInterval(intervalId);
+	}, []);
 
 	return (
 		<div className="frame">
